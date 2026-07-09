@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: obti
+    runtime: static
+    buildCommand: pnpm install --no-frozen-lockfile && pnpm build
+    staticPublishPath: ./dist
+    pullRequestPreviewsEnabled: true
