@@ -5,3 +5,7 @@ services:
     buildCommand: pnpm install --no-frozen-lockfile && pnpm build
     staticPublishPath: ./dist
     pullRequestPreviewsEnabled: true
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
