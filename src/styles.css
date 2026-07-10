@@ -1,5 +1,5 @@
 :root {
-  color: #203422;
+  color: #082B4F;
   background: #fff9e8;
   font-family: Inter, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
 }
@@ -24,14 +24,14 @@ textarea {
   overflow: hidden;
   position: relative;
   background:
-    radial-gradient(circle at top left, rgba(179, 224, 95, 0.34), transparent 28rem),
-    linear-gradient(135deg, #fff9e8 0%, #f4f8dd 52%, #eaf5df 100%);
+    radial-gradient(circle at top left, rgba(34, 174, 244, 0.30), transparent 28rem),
+    linear-gradient(135deg, #fff9e8 0%, #EEF9FF 52%, #EAF4FF 100%);
   padding: 22px;
 }
 
 .bg-ring {
   position: fixed;
-  border: 26px solid rgba(111, 173, 77, 0.14);
+  border: 26px solid rgba(0, 149, 232, 0.14);
   border-radius: 999px;
   pointer-events: none;
 }
@@ -74,9 +74,9 @@ textarea {
 .insight-card,
 .stat-card {
   background: rgba(255, 255, 255, 0.82);
-  border: 1px solid rgba(113, 151, 80, 0.16);
+  border: 1px solid rgba(0, 137, 215, 0.16);
   border-radius: 24px;
-  box-shadow: 0 18px 50px rgba(77, 108, 54, 0.13);
+  box-shadow: 0 18px 50px rgba(0, 84, 160, 0.13);
 }
 
 .hero-card {
@@ -93,7 +93,7 @@ textarea {
   height: 170px;
   margin: 0 auto 18px;
   position: relative;
-  border: 18px solid #bfe681;
+  border: 18px solid #63CFFF;
   border-radius: 999px;
   background: #fff6cc;
 }
@@ -101,7 +101,7 @@ textarea {
 .onion-orbit span {
   position: absolute;
   inset: 20px;
-  border: 10px solid rgba(90, 153, 65, 0.28);
+  border: 10px solid rgba(0, 123, 220, 0.28);
   border-radius: 999px;
 }
 
@@ -112,7 +112,7 @@ textarea {
 
 .onion-orbit span:nth-child(3) {
   inset: 68px;
-  background: #78b95a;
+  background: #12AEEA;
   border: 0;
 }
 
@@ -121,8 +121,8 @@ textarea {
   display: inline-flex;
   width: fit-content;
   border-radius: 999px;
-  background: #e6f5c7;
-  color: #3c7231;
+  background: #D9F3FF;
+  color: #0868D8;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0;
@@ -143,7 +143,7 @@ p {
 }
 
 .subtitle {
-  color: #617253;
+  color: #416B92;
   font-size: clamp(18px, 3vw, 24px);
   line-height: 1.5;
 }
@@ -158,7 +158,7 @@ p {
 label {
   display: grid;
   gap: 8px;
-  color: #40533b;
+  color: #24486B;
   font-weight: 700;
 }
 
@@ -167,17 +167,17 @@ small,
 .disclaimer,
 .test-actions span,
 .admin-note {
-  color: #718066;
+  color: #6B8296;
 }
 
 input,
 select,
 textarea {
   width: 100%;
-  border: 1px solid rgba(75, 119, 52, 0.18);
+  border: 1px solid rgba(0, 114, 202, 0.18);
   border-radius: 16px;
   background: #fffdf4;
-  color: #203422;
+  color: #082B4F;
   outline: none;
   padding: 13px 14px;
 }
@@ -211,11 +211,11 @@ textarea {
 .primary-button {
   margin-top: 20px;
   border-radius: 18px;
-  background: #6eae4f;
+  background: #129FEF;
   color: white;
   font-weight: 900;
   padding: 16px 22px;
-  box-shadow: 0 12px 26px rgba(79, 134, 47, 0.24);
+  box-shadow: 0 12px 26px rgba(0, 117, 211, 0.24);
 }
 
 .primary-button:hover,
@@ -237,10 +237,10 @@ textarea {
 }
 
 .ghost-button {
-  border: 1px solid rgba(94, 132, 70, 0.22);
+  border: 1px solid rgba(0, 113, 201, 0.22);
   border-radius: 16px;
   background: #fffdf4;
-  color: #3f6931;
+  color: #0868D8;
   font-weight: 800;
   padding: 12px 16px;
 }
@@ -272,7 +272,7 @@ textarea {
 .progress {
   height: 12px;
   border-radius: 999px;
-  background: #e6eed3;
+  background: #D9EDF9;
   margin: 18px 0 34px;
   overflow: hidden;
 }
@@ -281,7 +281,7 @@ textarea {
   display: block;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, #79bd52, #f3be47);
+  background: linear-gradient(90deg, #12AEEA, #f3be47);
 }
 
 .test-card h2 {
@@ -299,12 +299,12 @@ textarea {
   min-height: 64px;
   border-radius: 20px;
   background: #fffdf4;
-  color: #243824;
-  border: 1px solid rgba(91, 133, 64, 0.18);
+  color: #092B4D;
+  border: 1px solid rgba(0, 116, 205, 0.18);
   padding: 18px;
   text-align: left;
   font-weight: 800;
-  box-shadow: 0 10px 20px rgba(87, 110, 62, 0.08);
+  box-shadow: 0 10px 20px rgba(0, 82, 150, 0.08);
 }
 
 .result-hero {
@@ -325,7 +325,7 @@ textarea {
 }
 
 .result-hero p {
-  color: #506246;
+  color: #365B7E;
   font-size: 18px;
   line-height: 1.7;
 }
@@ -344,14 +344,14 @@ textarea {
 }
 
 .insight-card h3 {
-  color: #3c7231;
+  color: #0868D8;
 }
 
 .insight-card p,
 .share-card p,
 .field {
   line-height: 1.65;
-  color: #506246;
+  color: #365B7E;
 }
 
 .button-row {
@@ -390,7 +390,7 @@ textarea {
 }
 
 .muted {
-  background: rgba(230, 245, 199, 0.58);
+  background: rgba(217, 243, 255, 0.72);
 }
 
 .tabs {
@@ -405,12 +405,12 @@ textarea {
   border-radius: 999px;
   padding: 11px 16px;
   background: #fffdf4;
-  color: #42633b;
+  color: #115FBA;
   font-weight: 800;
 }
 
 .tabs .active {
-  background: #6eae4f;
+  background: #129FEF;
   color: white;
 }
 
@@ -424,7 +424,7 @@ textarea {
 
 .toast {
   border-radius: 999px;
-  background: #203422;
+  background: #082B4F;
   color: #fff;
   padding: 9px 12px;
   font-weight: 800;
@@ -454,7 +454,7 @@ textarea {
 
 .field strong {
   display: block;
-  color: #253b27;
+  color: #102F52;
 }
 
 .tag-row {
@@ -526,7 +526,7 @@ textarea {
 }
 
 .stat-card span {
-  color: #65745b;
+  color: #617890;
 }
 
 .stat-card strong {
@@ -550,7 +550,7 @@ textarea {
 
 .bar-row div {
   height: 16px;
-  background: #e9efd7;
+  background: #DEEFFB;
   border-radius: 999px;
   overflow: hidden;
 }
@@ -558,7 +558,7 @@ textarea {
 .bar-row i {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg, #6eae4f, #f3be47);
+  background: linear-gradient(90deg, #129FEF, #f3be47);
 }
 
 .record-table {
@@ -573,7 +573,7 @@ textarea {
   padding: 12px;
   border-radius: 14px;
   background: #fffdf4;
-  color: #4d5f46;
+  color: #3E5E7D;
 }
 
 @media (max-width: 760px) {
